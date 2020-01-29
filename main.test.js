@@ -1,4 +1,28 @@
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Bogdan';
+let greeting = 'HEY';
 
+function multiply (productParameterX) {
+  x = x * productParameterX;
+}
+
+function modYBy (modulusParameterY) {
+  y = y % modulusParameterY;
+}
+
+function opposite (oppositeParameterZ) {
+  z = - oppositeParameterZ;
+}
+
+function makeFullName (lastName) {
+  name = name  + ' ' + lastName;
+}
+
+function yellAt (exclaimationNameString) {
+  greeting = greeting + ',' + ' ' + exclaimationNameString + '!'; 
+}
 
 /*********************************************************************************************************************
 
